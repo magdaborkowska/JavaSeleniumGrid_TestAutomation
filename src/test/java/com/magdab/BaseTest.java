@@ -35,7 +35,7 @@ public abstract class BaseTest {
     @Parameters({"browserName","testDataFileName"})
     @BeforeClass
     public void setup(@Optional("Chrome") String browserName
-            , @Optional("clothsStore.properties") String testDataFileName){
+            , @Optional("default.properties") String testDataFileName){
         driverManager = new DriverManager();
         driver.set(driverManager.getDriver(browserName, "Grid"));
         ITestContext context = Reporter.getCurrentTestResult().getTestContext();
