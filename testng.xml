@@ -11,6 +11,8 @@
     <classes>
       <class name="com.magdab.amazon.GoToCartTest" />
       <class name="com.magdab.amazon.ChangeLanguageTest" />
+      <class name="com.magdab.amazon.GoToCategoryTest" />
+      <class name="com.magdab.amazon.BuyFlowTest" />
     </classes>
   </test>
   <test name="Allure Reports Example Chrome">
@@ -19,6 +21,8 @@
     <classes>
       <class name="com.magdab.amazon.GoToCategoryTest" />
       <class name="com.magdab.amazon.BuyFlowTest" />
+      <class name="com.magdab.amazon.GoToCartTest" />
+      <class name="com.magdab.amazon.ChangeLanguageTest" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

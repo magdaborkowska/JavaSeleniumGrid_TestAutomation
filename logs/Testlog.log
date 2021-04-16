@@ -398,3 +398,179 @@
 16:37:35.195 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
 16:37:35.200 [main] INFO  HomePage - Trying to open application home page
 16:37:35.200 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+16:46:38.723 [main] INFO  DriverManager - Chrome driver selected
+16:46:38.781 [main] ERROR DriverManager - Remote driver creation failed
+16:46:38.798 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:46:38.992 [main] INFO  HomePage - Trying to open application home page
+16:46:38.994 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+16:46:39.280 [main] INFO  DriverManager - Chrome driver selected
+16:46:39.280 [main] ERROR DriverManager - Remote driver creation failed
+16:46:39.280 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:46:39.290 [main] INFO  HomePage - Trying to open application home page
+16:46:39.290 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+16:46:39.350 [main] INFO  DriverManager - Chrome driver selected
+16:46:39.350 [main] ERROR DriverManager - Remote driver creation failed
+16:46:39.350 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:46:39.360 [main] INFO  HomePage - Trying to open application home page
+16:46:39.360 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+16:46:39.411 [main] INFO  DriverManager - Chrome driver selected
+16:46:39.419 [main] ERROR DriverManager - Remote driver creation failed
+16:46:39.419 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:46:39.421 [main] INFO  HomePage - Trying to open application home page
+16:46:39.421 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:39:44.604 [main] INFO  DriverManager - Chrome driver selected
+18:39:44.676 [main] ERROR DriverManager - Remote driver creation failed
+18:39:44.678 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:39:44.920 [main] INFO  HomePage - Trying to open application home page
+18:39:44.921 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:39:45.385 [main] INFO  DriverManager - Chrome driver selected
+18:39:45.386 [main] ERROR DriverManager - Remote driver creation failed
+18:39:45.387 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:39:45.399 [main] INFO  HomePage - Trying to open application home page
+18:39:45.400 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:39:45.505 [main] INFO  DriverManager - Chrome driver selected
+18:39:45.508 [main] ERROR DriverManager - Remote driver creation failed
+18:39:45.509 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:39:45.522 [main] INFO  HomePage - Trying to open application home page
+18:39:45.522 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:39:45.567 [main] INFO  DriverManager - Chrome driver selected
+18:39:45.567 [main] ERROR DriverManager - Remote driver creation failed
+18:39:45.568 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:39:45.572 [main] INFO  HomePage - Trying to open application home page
+18:39:45.573 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:44:43.783 [main] INFO  DriverManager - Chrome driver selected
+18:44:56.706 [main] INFO  DriverManager - Chrome driver selected
+18:45:06.824 [main] INFO  DriverManager - Chrome driver selected
+18:45:16.864 [main] INFO  DriverManager - Chrome driver selected
+18:52:06.430 [main] INFO  DriverManager - Chrome driver selected
+18:52:19.511 [main] INFO  DriverManager - Chrome driver selected
+18:52:29.572 [main] INFO  DriverManager - Chrome driver selected
+18:52:39.628 [main] INFO  DriverManager - Chrome driver selected
+18:53:33.808 [main] INFO  DriverManager - Chrome driver selected
+18:56:37.319 [main] INFO  DriverManager - Chrome driver selected
+18:57:34.127 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:57:34.299 [main] INFO  HomePage - Trying to open application home page
+18:57:34.300 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:57:37.290 [main] INFO  HomePage - ABC
+18:57:37.290 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
+18:57:39.004 [main] INFO  SearchResultsPage - Click on radio button to select the language
+18:57:39.005 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
+18:57:39.414 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
+18:57:39.414 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
+18:57:42.421 [main] INFO  Assert - Verifying text on page
+18:57:42.606 [main] INFO  Assert - Text is equal to expected
+18:57:43.593 [main] INFO  DriverManager - Chrome driver selected
+18:57:45.560 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:57:45.568 [main] INFO  HomePage - Trying to open application home page
+18:57:45.568 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:57:49.672 [main] INFO  HomePage - Click on the cart button
+18:57:49.673 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
+18:57:49.673 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
+18:57:51.806 [main] INFO  Assert - Verifying text on page
+18:57:51.980 [main] INFO  Assert - Text is equal to expected
+18:57:53.358 [main] INFO  DriverManager - Chrome driver selected
+18:57:55.491 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:57:55.499 [main] INFO  HomePage - Trying to open application home page
+18:57:55.499 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:58:00.516 [main] INFO  HomePage - Click on the category button
+18:58:00.516 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
+18:58:02.434 [main] INFO  Assert - Verifying text on page
+18:58:02.546 [main] INFO  Assert - Text is equal to expected
+18:58:02.546 [main] INFO  CategoryPage - Pick subcategory on the category page
+18:58:02.582 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
+18:58:05.860 [main] INFO  Assert - Verifying text on page
+18:58:05.974 [main] INFO  Assert - Text is equal to expected
+20:27:06.626 [main] INFO  DriverManager - Chrome driver selected
+20:27:10.652 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+20:27:10.822 [main] INFO  HomePage - Trying to open application home page
+20:27:10.822 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+20:27:15.643 [main] INFO  HomePage - Click on the delivery button
+20:27:15.643 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-global-location-popover-link
+20:27:15.868 [main] INFO  HomePage - click on the country list
+20:27:16.783 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //span[@role='radiogroup' and @data-action='a-dropdown-button']
+20:27:16.892 [main] INFO  HomePage - Click on the country to pick
+20:27:16.990 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='GLUXCountryList_178' and text()='Poland']
+20:27:17.127 [main] INFO  HomePage - Click on the country confirm button
+20:27:17.128 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //button[@name='glowDoneButton' and text()='Done']
+20:27:17.215 [main] INFO  HomePage - Click on the dismiss cookies button
+20:27:17.247 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //*[@data-action-type='DISMISS']
+20:27:17.588 [main] INFO  HomePage - Click on the category drop down list
+20:27:17.612 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //*[@id='nav-search-dropdown-card']/div
+20:27:17.741 [main] INFO  HomePage - Click on the category to pick Music and Vinyls
+20:27:17.880 [main] INFO  HomePage - Performing search for product with title: Led Zeppelin vinyl
+20:27:17.899 [main] INFO  HomePage - Entering text: "Led Zeppelin vinyl" into field with XPath: By.id: twotabsearchtextbox
+20:27:18.298 [main] INFO  HomePage - Pressing key: ENTER
+20:27:19.882 [main] INFO  SearchResultsPage - Click on the sorting options list
+20:27:22.256 [main] INFO  DriverManager - Chrome driver selected
+20:27:24.538 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+20:27:24.543 [main] INFO  HomePage - Trying to open application home page
+20:27:24.544 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+20:27:33.859 [main] INFO  HomePage - ABC
+20:27:33.859 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
+20:27:37.355 [main] INFO  SearchResultsPage - Click on radio button to select the language
+20:27:37.356 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
+20:27:37.463 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
+20:27:37.463 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
+20:27:40.356 [main] INFO  Assert - Verifying text on page
+20:27:40.425 [main] INFO  Assert - Text is equal to expected
+20:27:41.210 [main] INFO  DriverManager - Chrome driver selected
+20:27:43.566 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+20:27:43.576 [main] INFO  HomePage - Trying to open application home page
+20:27:43.576 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+20:27:52.466 [main] INFO  HomePage - Click on the cart button
+20:27:52.466 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
+20:27:52.466 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
+20:27:55.004 [main] INFO  Assert - Verifying text on page
+20:27:55.057 [main] INFO  Assert - Text is equal to expected
+20:27:55.786 [main] INFO  DriverManager - Chrome driver selected
+20:27:57.513 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+20:27:57.520 [main] INFO  HomePage - Trying to open application home page
+20:27:57.520 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+20:28:01.508 [main] INFO  HomePage - Click on the category button
+20:28:01.508 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
+20:28:03.551 [main] INFO  Assert - Verifying text on page
+20:28:03.625 [main] INFO  Assert - Text is equal to expected
+20:28:03.625 [main] INFO  CategoryPage - Pick subcategory on the category page
+20:28:03.640 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
+20:28:08.464 [main] INFO  Assert - Verifying text on page
+20:28:08.566 [main] INFO  Assert - Text is equal to expected
+18:14:28.525 [main] INFO  DriverManager - Chrome driver selected
+18:14:34.252 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:14:34.429 [main] INFO  HomePage - Trying to open application home page
+18:14:34.430 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:14:37.564 [main] INFO  HomePage - Click on the delivery button
+18:14:37.564 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-global-location-popover-link
+18:14:38.098 [main] INFO  HomePage - click on the country list
+18:14:43.386 [main] INFO  DriverManager - Chrome driver selected
+18:14:45.223 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:14:45.234 [main] INFO  HomePage - Trying to open application home page
+18:14:45.234 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:14:48.338 [main] INFO  HomePage - ABC
+18:14:48.339 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
+18:14:49.782 [main] INFO  SearchResultsPage - Click on radio button to select the language
+18:14:49.782 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
+18:14:49.899 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
+18:14:49.899 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
+18:14:51.772 [main] INFO  Assert - Verifying text on page
+18:14:51.945 [main] INFO  Assert - Text is equal to expected
+18:14:53.355 [main] INFO  DriverManager - Chrome driver selected
+18:14:55.012 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:14:55.018 [main] INFO  HomePage - Trying to open application home page
+18:14:55.018 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:14:58.092 [main] INFO  HomePage - Click on the cart button
+18:14:58.092 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
+18:14:58.092 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
+18:14:59.422 [main] INFO  Assert - Verifying text on page
+18:14:59.559 [main] INFO  Assert - Text is equal to expected
+18:15:00.396 [main] INFO  DriverManager - Chrome driver selected
+18:15:02.065 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+18:15:02.071 [main] INFO  HomePage - Trying to open application home page
+18:15:02.071 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
+18:15:05.572 [main] INFO  HomePage - Click on the category button
+18:15:05.572 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
+18:15:07.400 [main] INFO  Assert - Verifying text on page
+18:15:07.685 [main] INFO  Assert - Text is equal to expected
+18:15:07.686 [main] INFO  CategoryPage - Pick subcategory on the category page
+18:15:07.724 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
+18:15:10.422 [main] INFO  Assert - Verifying text on page
+18:15:10.495 [main] INFO  Assert - Text is equal to expected
