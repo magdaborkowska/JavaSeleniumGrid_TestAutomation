@@ -1,10 +1,8 @@
 package com.magdab;
 
 import com.magdab.drivers.DriverManager;
-import com.magdab.pageobject.amazon.CategoryPage;
-import com.magdab.pageobject.amazon.ChangeLanguagePage;
-import com.magdab.pageobject.amazon.HomePage;
-import com.magdab.pageobject.amazon.SearchResultsPage;
+import com.magdab.pageobject.zooplus.CartPage;
+import com.magdab.pageobject.zooplus.HomePage;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
@@ -26,10 +24,7 @@ public abstract class BaseTest {
     protected PropertyManager propertyManager;
 
     protected HomePage homePage;
-    protected SearchResultsPage searchResultsPage;
-    protected CategoryPage categoryPage;
-    protected ChangeLanguagePage languagePage;
-
+    protected CartPage cartPage;
 
 
     @Parameters({"browserName","testDataFileName"})
@@ -43,9 +38,7 @@ public abstract class BaseTest {
 
         propertyManager = new PropertyManager(testDataFileName);
         homePage = new HomePage(driver.get(), propertyManager);;
-        searchResultsPage = new SearchResultsPage(driver.get(), propertyManager);
-        categoryPage = new CategoryPage(driver.get(), propertyManager);
-        languagePage = new ChangeLanguagePage(driver.get(), propertyManager);
+        cartPage = new CartPage(driver.get(), propertyManager);
     }
 
     @AfterMethod
