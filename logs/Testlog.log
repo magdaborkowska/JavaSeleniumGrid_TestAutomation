@@ -1,576 +1,110 @@
-12:55:49.751 [main] INFO  DriverManager - Chrome driver selected
-12:55:49.832 [main] ERROR DriverManager - Remote driver creation failed
-12:55:49.832 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-12:55:49.832 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-12:55:49.832 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-12:55:50.265 [main] INFO  HomePage - Trying to open application home page
-12:55:50.265 [main] INFO  HomePage - Navigating to website with url:   null
-12:57:31.942 [main] INFO  DriverManager - Chrome driver selected
-12:57:32.018 [main] ERROR DriverManager - Remote driver creation failed
-12:57:32.018 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-12:57:32.018 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-12:57:32.026 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-12:57:32.360 [main] INFO  HomePage - Trying to open application home page
-12:57:32.360 [main] INFO  HomePage - Navigating to website with url:   null
-13:00:39.442 [main] INFO  DriverManager - Chrome driver selected
-13:00:39.510 [main] ERROR DriverManager - Remote driver creation failed
-13:00:39.512 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-13:00:39.513 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-13:00:39.515 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-13:00:39.884 [main] INFO  HomePage - Trying to open application home page
-13:00:39.884 [main] INFO  HomePage - Navigating to website with url:   null
-13:11:12.216 [main] INFO  DriverManager - Chrome driver selected
-13:11:12.286 [main] ERROR DriverManager - Remote driver creation failed
-13:11:12.286 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-13:11:12.286 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-13:11:12.294 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-13:11:12.536 [main] INFO  HomePage - Trying to open application home page
-13:11:12.536 [main] INFO  HomePage - Navigating to website with url:   null
-16:13:30.366 [main] INFO  DriverManager - Chrome driver selected
-16:13:30.446 [main] ERROR DriverManager - Remote driver creation failed
-16:13:30.448 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:13:30.448 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:13:30.450 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:13:30.780 [main] INFO  HomePage - Trying to open application home page
-16:13:30.781 [main] INFO  HomePage - Navigating to website with url:   null
-16:19:10.572 [main] INFO  DriverManager - Chrome driver selected
-16:19:10.631 [main] ERROR DriverManager - Remote driver creation failed
-16:19:10.634 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:19:10.634 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:19:10.636 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:19:10.892 [main] INFO  HomePage - Trying to open application home page
-16:19:10.893 [main] INFO  HomePage - Navigating to website with url:   null
-16:21:32.902 [main] INFO  DriverManager - Chrome driver selected
-16:21:32.965 [main] ERROR DriverManager - Remote driver creation failed
-16:21:32.967 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:21:32.968 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:21:32.970 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:21:33.269 [main] INFO  HomePage - Trying to open application home page
-16:21:33.269 [main] INFO  HomePage - Navigating to website with url:   null
-16:21:33.671 [main] INFO  DriverManager - Chrome driver selected
-16:21:33.672 [main] ERROR DriverManager - Remote driver creation failed
-16:21:33.672 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:21:33.673 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:21:33.677 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:21:33.686 [main] INFO  HomePage - Trying to open application home page
-16:21:33.687 [main] INFO  HomePage - Navigating to website with url:   null
-16:21:33.746 [main] INFO  DriverManager - Chrome driver selected
-16:21:33.747 [main] ERROR DriverManager - Remote driver creation failed
-16:21:33.747 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:21:33.749 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:21:33.750 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:21:33.762 [main] INFO  HomePage - Trying to open application home page
-16:21:33.762 [main] INFO  HomePage - Navigating to website with url:   null
-16:21:33.788 [main] INFO  DriverManager - Chrome driver selected
-16:21:33.789 [main] ERROR DriverManager - Remote driver creation failed
-16:21:33.789 [main] INFO  PropertyManager - Trying to access property file: testdata/clothsStore.properties
-16:21:33.790 [main] ERROR PropertyManager - Property file with path: testdata/clothsStore.properties cannot be opened
-16:21:33.790 [main] ERROR PropertyManager - java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:247)
-	at java.base/java.util.Properties.load(Properties.java:407)
-	at com.magdab.PropertyManager.loadProperties(PropertyManager.java:33)
-	at com.magdab.PropertyManager.<init>(PropertyManager.java:16)
-	at com.magdab.BaseTest.setup(BaseTest.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-16:21:33.796 [main] INFO  HomePage - Trying to open application home page
-16:21:33.797 [main] INFO  HomePage - Navigating to website with url:   null
-16:37:34.498 [main] INFO  DriverManager - Chrome driver selected
-16:37:34.559 [main] ERROR DriverManager - Remote driver creation failed
-16:37:34.561 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:37:34.768 [main] INFO  HomePage - Trying to open application home page
-16:37:34.768 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:37:35.015 [main] INFO  DriverManager - Chrome driver selected
-16:37:35.015 [main] ERROR DriverManager - Remote driver creation failed
-16:37:35.016 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:37:35.027 [main] INFO  HomePage - Trying to open application home page
-16:37:35.028 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:37:35.137 [main] INFO  DriverManager - Chrome driver selected
-16:37:35.138 [main] ERROR DriverManager - Remote driver creation failed
-16:37:35.140 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:37:35.150 [main] INFO  HomePage - Trying to open application home page
-16:37:35.150 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:37:35.194 [main] INFO  DriverManager - Chrome driver selected
-16:37:35.195 [main] ERROR DriverManager - Remote driver creation failed
-16:37:35.195 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:37:35.200 [main] INFO  HomePage - Trying to open application home page
-16:37:35.200 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:46:38.723 [main] INFO  DriverManager - Chrome driver selected
-16:46:38.781 [main] ERROR DriverManager - Remote driver creation failed
-16:46:38.798 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:46:38.992 [main] INFO  HomePage - Trying to open application home page
-16:46:38.994 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:46:39.280 [main] INFO  DriverManager - Chrome driver selected
-16:46:39.280 [main] ERROR DriverManager - Remote driver creation failed
-16:46:39.280 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:46:39.290 [main] INFO  HomePage - Trying to open application home page
-16:46:39.290 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:46:39.350 [main] INFO  DriverManager - Chrome driver selected
-16:46:39.350 [main] ERROR DriverManager - Remote driver creation failed
-16:46:39.350 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:46:39.360 [main] INFO  HomePage - Trying to open application home page
-16:46:39.360 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-16:46:39.411 [main] INFO  DriverManager - Chrome driver selected
-16:46:39.419 [main] ERROR DriverManager - Remote driver creation failed
-16:46:39.419 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-16:46:39.421 [main] INFO  HomePage - Trying to open application home page
-16:46:39.421 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:39:44.604 [main] INFO  DriverManager - Chrome driver selected
-18:39:44.676 [main] ERROR DriverManager - Remote driver creation failed
-18:39:44.678 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:39:44.920 [main] INFO  HomePage - Trying to open application home page
-18:39:44.921 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:39:45.385 [main] INFO  DriverManager - Chrome driver selected
-18:39:45.386 [main] ERROR DriverManager - Remote driver creation failed
-18:39:45.387 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:39:45.399 [main] INFO  HomePage - Trying to open application home page
-18:39:45.400 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:39:45.505 [main] INFO  DriverManager - Chrome driver selected
-18:39:45.508 [main] ERROR DriverManager - Remote driver creation failed
-18:39:45.509 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:39:45.522 [main] INFO  HomePage - Trying to open application home page
-18:39:45.522 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:39:45.567 [main] INFO  DriverManager - Chrome driver selected
-18:39:45.567 [main] ERROR DriverManager - Remote driver creation failed
-18:39:45.568 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:39:45.572 [main] INFO  HomePage - Trying to open application home page
-18:39:45.573 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:44:43.783 [main] INFO  DriverManager - Chrome driver selected
-18:44:56.706 [main] INFO  DriverManager - Chrome driver selected
-18:45:06.824 [main] INFO  DriverManager - Chrome driver selected
-18:45:16.864 [main] INFO  DriverManager - Chrome driver selected
-18:52:06.430 [main] INFO  DriverManager - Chrome driver selected
-18:52:19.511 [main] INFO  DriverManager - Chrome driver selected
-18:52:29.572 [main] INFO  DriverManager - Chrome driver selected
-18:52:39.628 [main] INFO  DriverManager - Chrome driver selected
-18:53:33.808 [main] INFO  DriverManager - Chrome driver selected
-18:56:37.319 [main] INFO  DriverManager - Chrome driver selected
-18:57:34.127 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:57:34.299 [main] INFO  HomePage - Trying to open application home page
-18:57:34.300 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:57:37.290 [main] INFO  HomePage - ABC
-18:57:37.290 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
-18:57:39.004 [main] INFO  SearchResultsPage - Click on radio button to select the language
-18:57:39.005 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
-18:57:39.414 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
-18:57:39.414 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
-18:57:42.421 [main] INFO  Assert - Verifying text on page
-18:57:42.606 [main] INFO  Assert - Text is equal to expected
-18:57:43.593 [main] INFO  DriverManager - Chrome driver selected
-18:57:45.560 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:57:45.568 [main] INFO  HomePage - Trying to open application home page
-18:57:45.568 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:57:49.672 [main] INFO  HomePage - Click on the cart button
-18:57:49.673 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
-18:57:49.673 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
-18:57:51.806 [main] INFO  Assert - Verifying text on page
-18:57:51.980 [main] INFO  Assert - Text is equal to expected
-18:57:53.358 [main] INFO  DriverManager - Chrome driver selected
-18:57:55.491 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:57:55.499 [main] INFO  HomePage - Trying to open application home page
-18:57:55.499 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:58:00.516 [main] INFO  HomePage - Click on the category button
-18:58:00.516 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
-18:58:02.434 [main] INFO  Assert - Verifying text on page
-18:58:02.546 [main] INFO  Assert - Text is equal to expected
-18:58:02.546 [main] INFO  CategoryPage - Pick subcategory on the category page
-18:58:02.582 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
-18:58:05.860 [main] INFO  Assert - Verifying text on page
-18:58:05.974 [main] INFO  Assert - Text is equal to expected
-20:27:06.626 [main] INFO  DriverManager - Chrome driver selected
-20:27:10.652 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-20:27:10.822 [main] INFO  HomePage - Trying to open application home page
-20:27:10.822 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-20:27:15.643 [main] INFO  HomePage - Click on the delivery button
-20:27:15.643 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-global-location-popover-link
-20:27:15.868 [main] INFO  HomePage - click on the country list
-20:27:16.783 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //span[@role='radiogroup' and @data-action='a-dropdown-button']
-20:27:16.892 [main] INFO  HomePage - Click on the country to pick
-20:27:16.990 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='GLUXCountryList_178' and text()='Poland']
-20:27:17.127 [main] INFO  HomePage - Click on the country confirm button
-20:27:17.128 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //button[@name='glowDoneButton' and text()='Done']
-20:27:17.215 [main] INFO  HomePage - Click on the dismiss cookies button
-20:27:17.247 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //*[@data-action-type='DISMISS']
-20:27:17.588 [main] INFO  HomePage - Click on the category drop down list
-20:27:17.612 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //*[@id='nav-search-dropdown-card']/div
-20:27:17.741 [main] INFO  HomePage - Click on the category to pick Music and Vinyls
-20:27:17.880 [main] INFO  HomePage - Performing search for product with title: Led Zeppelin vinyl
-20:27:17.899 [main] INFO  HomePage - Entering text: "Led Zeppelin vinyl" into field with XPath: By.id: twotabsearchtextbox
-20:27:18.298 [main] INFO  HomePage - Pressing key: ENTER
-20:27:19.882 [main] INFO  SearchResultsPage - Click on the sorting options list
-20:27:22.256 [main] INFO  DriverManager - Chrome driver selected
-20:27:24.538 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-20:27:24.543 [main] INFO  HomePage - Trying to open application home page
-20:27:24.544 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-20:27:33.859 [main] INFO  HomePage - ABC
-20:27:33.859 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
-20:27:37.355 [main] INFO  SearchResultsPage - Click on radio button to select the language
-20:27:37.356 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
-20:27:37.463 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
-20:27:37.463 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
-20:27:40.356 [main] INFO  Assert - Verifying text on page
-20:27:40.425 [main] INFO  Assert - Text is equal to expected
-20:27:41.210 [main] INFO  DriverManager - Chrome driver selected
-20:27:43.566 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-20:27:43.576 [main] INFO  HomePage - Trying to open application home page
-20:27:43.576 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-20:27:52.466 [main] INFO  HomePage - Click on the cart button
-20:27:52.466 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
-20:27:52.466 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
-20:27:55.004 [main] INFO  Assert - Verifying text on page
-20:27:55.057 [main] INFO  Assert - Text is equal to expected
-20:27:55.786 [main] INFO  DriverManager - Chrome driver selected
-20:27:57.513 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-20:27:57.520 [main] INFO  HomePage - Trying to open application home page
-20:27:57.520 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-20:28:01.508 [main] INFO  HomePage - Click on the category button
-20:28:01.508 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
-20:28:03.551 [main] INFO  Assert - Verifying text on page
-20:28:03.625 [main] INFO  Assert - Text is equal to expected
-20:28:03.625 [main] INFO  CategoryPage - Pick subcategory on the category page
-20:28:03.640 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
-20:28:08.464 [main] INFO  Assert - Verifying text on page
-20:28:08.566 [main] INFO  Assert - Text is equal to expected
-18:14:28.525 [main] INFO  DriverManager - Chrome driver selected
-18:14:34.252 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:14:34.429 [main] INFO  HomePage - Trying to open application home page
-18:14:34.430 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:14:37.564 [main] INFO  HomePage - Click on the delivery button
-18:14:37.564 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-global-location-popover-link
-18:14:38.098 [main] INFO  HomePage - click on the country list
-18:14:43.386 [main] INFO  DriverManager - Chrome driver selected
-18:14:45.223 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:14:45.234 [main] INFO  HomePage - Trying to open application home page
-18:14:45.234 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:14:48.338 [main] INFO  HomePage - ABC
-18:14:48.339 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //a[@id='icp-nav-flyout']
-18:14:49.782 [main] INFO  SearchResultsPage - Click on radio button to select the language
-18:14:49.782 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //span[contains(text(),'Deutsch - DE')]
-18:14:49.899 [main] INFO  SearchResultsPage - Click on submit button to confirm the language
-18:14:49.899 [main] INFO  SearchResultsPage - Clicking on element with xpath: By.xpath: //input[@aria-labelledby]
-18:14:51.772 [main] INFO  Assert - Verifying text on page
-18:14:51.945 [main] INFO  Assert - Text is equal to expected
-18:14:53.355 [main] INFO  DriverManager - Chrome driver selected
-18:14:55.012 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:14:55.018 [main] INFO  HomePage - Trying to open application home page
-18:14:55.018 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:14:58.092 [main] INFO  HomePage - Click on the cart button
-18:14:58.092 [main] INFO  HomePage - Clicking on element with id: By.id: nav-cart
-18:14:58.092 [main] INFO  HomePage - Clicking on element with xpath: By.id: nav-cart
-18:14:59.422 [main] INFO  Assert - Verifying text on page
-18:14:59.559 [main] INFO  Assert - Text is equal to expected
-18:15:00.396 [main] INFO  DriverManager - Chrome driver selected
-18:15:02.065 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
-18:15:02.071 [main] INFO  HomePage - Trying to open application home page
-18:15:02.071 [main] INFO  HomePage - Navigating to website with url:   https://amazon.com/
-18:15:05.572 [main] INFO  HomePage - Click on the category button
-18:15:05.572 [main] INFO  HomePage - Clicking on element with xpath: By.xpath: //img[@alt='Computers & Accessories' and @class='landscape-image']
-18:15:07.400 [main] INFO  Assert - Verifying text on page
-18:15:07.685 [main] INFO  Assert - Text is equal to expected
-18:15:07.686 [main] INFO  CategoryPage - Pick subcategory on the category page
-18:15:07.724 [main] INFO  CategoryPage - Clicking on element with xpath: By.xpath: //a[@aria-label='COMPUTER ACCESSORIES']
-18:15:10.422 [main] INFO  Assert - Verifying text on page
-18:15:10.495 [main] INFO  Assert - Text is equal to expected
+21:15:49.175 [main] INFO  HomePage - Click on the accept cookies button
+21:15:49.893 [main] INFO  HomePage - click on the cart button
+21:15:53.962 [main] INFO  CartPage - Click on continue shopping button
+21:15:58.551 [main] INFO  DriverManager - Chrome driver selected
+21:16:00.160 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:16:00.166 [main] INFO  HomePage - Trying to open application home page
+21:16:00.166 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:16:05.953 [main] INFO  HomePage - Click on the accept cookies button
+21:16:06.426 [main] INFO  HomePage - click on the cart button
+21:16:10.354 [main] INFO  DriverManager - Chrome driver selected
+21:16:12.189 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:16:12.197 [main] INFO  HomePage - Trying to open application home page
+21:16:12.197 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:16:15.251 [main] INFO  HomePage - Click on the accept cookies button
+21:16:16.665 [main] INFO  HomePage - click on the category button
+21:18:50.783 [main] INFO  DriverManager - Chrome driver selected
+21:18:54.451 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:18:54.692 [main] INFO  HomePage - Trying to open application home page
+21:18:54.692 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:18:58.315 [main] INFO  HomePage - Click on the accept cookies button
+21:18:59.783 [main] INFO  HomePage - click on the cart button
+21:19:05.303 [main] INFO  CartPage - Click on continue shopping button
+21:19:09.350 [main] INFO  DriverManager - Chrome driver selected
+21:19:11.168 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:19:11.178 [main] INFO  HomePage - Trying to open application home page
+21:19:11.179 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:19:15.104 [main] INFO  HomePage - Click on the accept cookies button
+21:19:15.581 [main] INFO  HomePage - click on the cart button
+21:19:19.609 [main] INFO  DriverManager - Chrome driver selected
+21:19:21.191 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:19:21.194 [main] INFO  HomePage - Trying to open application home page
+21:19:21.194 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:19:24.711 [main] INFO  HomePage - Click on the accept cookies button
+21:19:25.966 [main] INFO  HomePage - click on the category button
+21:22:36.718 [main] INFO  DriverManager - Chrome driver selected
+21:22:40.541 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:22:40.794 [main] INFO  HomePage - Trying to open application home page
+21:22:40.794 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:22:45.015 [main] INFO  HomePage - Click on the accept cookies button
+21:22:45.742 [main] INFO  HomePage - click on the cart button
+21:22:49.128 [main] INFO  CartPage - Click on continue shopping button
+21:22:53.364 [main] INFO  DriverManager - Chrome driver selected
+21:22:55.144 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:22:55.148 [main] INFO  HomePage - Trying to open application home page
+21:22:55.148 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:22:58.811 [main] INFO  HomePage - Click on the accept cookies button
+21:22:59.403 [main] INFO  HomePage - click on the cart button
+21:23:05.271 [main] INFO  DriverManager - Chrome driver selected
+21:23:07.184 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:23:07.205 [main] INFO  HomePage - Trying to open application home page
+21:23:07.205 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:23:10.556 [main] INFO  HomePage - Click on the accept cookies button
+21:23:11.112 [main] INFO  HomePage - click on the category button
+21:25:09.924 [main] INFO  DriverManager - Chrome driver selected
+21:25:14.418 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:25:14.658 [main] INFO  HomePage - Trying to open application home page
+21:25:14.658 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:25:18.199 [main] INFO  HomePage - Click on the accept cookies button
+21:25:19.764 [main] INFO  HomePage - click on the cart button
+21:25:23.433 [main] INFO  CartPage - Click on continue shopping button
+21:25:27.381 [main] INFO  DriverManager - Chrome driver selected
+21:25:29.179 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:25:29.189 [main] INFO  HomePage - Trying to open application home page
+21:25:29.190 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:25:32.416 [main] INFO  HomePage - Click on the accept cookies button
+21:25:33.743 [main] INFO  HomePage - click on the cart button
+21:25:38.904 [main] INFO  DriverManager - Chrome driver selected
+21:25:40.112 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:25:40.121 [main] INFO  HomePage - Trying to open application home page
+21:25:40.125 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:25:45.063 [main] INFO  HomePage - Click on the accept cookies button
+21:25:45.568 [main] INFO  HomePage - click on the category button
+21:26:52.755 [main] INFO  DriverManager - Edge driver selected
+21:26:59.152 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:26:59.424 [main] INFO  HomePage - Trying to open application home page
+21:26:59.424 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:27:03.612 [main] INFO  HomePage - Click on the accept cookies button
+21:27:04.490 [main] INFO  HomePage - click on the cart button
+21:27:11.154 [main] INFO  DriverManager - Edge driver selected
+21:27:13.265 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:27:13.275 [main] INFO  HomePage - Trying to open application home page
+21:27:13.275 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:27:20.131 [main] INFO  HomePage - Click on the accept cookies button
+21:27:20.576 [main] INFO  HomePage - click on the cart button
+21:27:25.952 [main] INFO  CartPage - Click on continue shopping button
+21:27:29.373 [main] INFO  DriverManager - Edge driver selected
+21:27:31.637 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:27:31.642 [main] INFO  HomePage - Trying to open application home page
+21:27:31.643 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:27:35.813 [main] INFO  HomePage - Click on the accept cookies button
+21:27:36.405 [main] INFO  HomePage - click on the category button
+21:27:40.504 [main] INFO  DriverManager - Chrome driver selected
+21:27:42.180 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:27:42.193 [main] INFO  HomePage - Trying to open application home page
+21:27:42.194 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:27:45.869 [main] INFO  HomePage - Click on the accept cookies button
+21:27:46.483 [main] INFO  HomePage - click on the cart button
+21:27:51.692 [main] INFO  DriverManager - Chrome driver selected
+21:27:53.243 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:27:53.250 [main] INFO  HomePage - Trying to open application home page
+21:27:53.252 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:27:58.680 [main] INFO  HomePage - Click on the accept cookies button
+21:27:59.889 [main] INFO  HomePage - click on the cart button
+21:28:08.149 [main] INFO  CartPage - Click on continue shopping button
+21:28:11.306 [main] INFO  DriverManager - Chrome driver selected
+21:28:13.267 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+21:28:13.276 [main] INFO  HomePage - Trying to open application home page
+21:28:13.276 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+21:28:18.884 [main] INFO  HomePage - Click on the accept cookies button
+21:28:20.271 [main] INFO  HomePage - click on the category button
