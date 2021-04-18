@@ -108,3 +108,164 @@
 21:28:13.276 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
 21:28:18.884 [main] INFO  HomePage - Click on the accept cookies button
 21:28:20.271 [main] INFO  HomePage - click on the category button
+12:31:39.529 [main] INFO  DriverManager - Edge driver selected
+12:31:44.971 [main] INFO  DriverManager - Edge driver selected
+12:31:47.107 [main] INFO  DriverManager - Edge driver selected
+12:31:49.198 [main] INFO  DriverManager - Chrome driver selected
+12:31:51.323 [main] INFO  DriverManager - Chrome driver selected
+12:31:53.414 [main] INFO  DriverManager - Chrome driver selected
+12:34:30.093 [main] INFO  DriverManager - Edge driver selected
+12:34:37.756 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:34:38.633 [main] INFO  HomePage - Trying to open application home page
+12:34:38.633 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:34:46.998 [main] INFO  HomePage - Click on the accept cookies button
+12:34:47.664 [main] INFO  HomePage - click on the cart button
+12:34:54.630 [main] INFO  DriverManager - Edge driver selected
+12:34:56.620 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:34:56.637 [main] INFO  HomePage - Trying to open application home page
+12:34:56.637 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:35:01.503 [main] INFO  HomePage - Click on the accept cookies button
+12:35:02.607 [main] INFO  HomePage - click on the cart button
+12:35:05.926 [main] INFO  CartPage - Click on continue shopping button
+12:35:09.131 [main] INFO  DriverManager - Edge driver selected
+12:35:10.789 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:35:10.799 [main] INFO  HomePage - Trying to open application home page
+12:35:10.801 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:35:15.156 [main] INFO  HomePage - Click on the accept cookies button
+12:35:16.714 [main] INFO  HomePage - click on the category button
+12:35:29.801 [main] INFO  DriverManager - Chrome driver selected
+12:35:31.563 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:35:31.572 [main] INFO  HomePage - Trying to open application home page
+12:35:31.572 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:35:42.270 [main] INFO  HomePage - Click on the accept cookies button
+12:35:42.860 [main] INFO  HomePage - click on the cart button
+12:35:47.409 [main] INFO  DriverManager - Chrome driver selected
+12:35:49.615 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:35:49.626 [main] INFO  HomePage - Trying to open application home page
+12:35:49.627 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:35:53.912 [main] INFO  HomePage - Click on the accept cookies button
+12:35:55.012 [main] INFO  HomePage - click on the cart button
+12:36:00.295 [main] INFO  CartPage - Click on continue shopping button
+12:36:03.871 [main] INFO  DriverManager - Chrome driver selected
+12:36:05.499 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:36:05.504 [main] INFO  HomePage - Trying to open application home page
+12:36:05.504 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:36:10.358 [main] INFO  HomePage - Click on the accept cookies button
+12:36:10.990 [main] INFO  HomePage - click on the category button
+12:52:40.503 [main] INFO  DriverManager - Edge driver selected
+12:52:46.208 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:52:46.844 [main] INFO  HomePage - Trying to open application home page
+12:52:46.844 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:53:03.778 [main] INFO  HomePage - Click on the accept cookies button
+12:53:04.558 [main] INFO  HomePage - click on the cart button
+12:53:06.734 [main] INFO  DriverManager - Edge driver selected
+12:53:08.541 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:53:08.551 [main] INFO  HomePage - Trying to open application home page
+12:53:08.551 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:53:12.492 [main] INFO  HomePage - Click on the accept cookies button
+12:53:13.830 [main] INFO  HomePage - click on the cart button
+12:53:18.864 [main] INFO  CartPage - Click on continue shopping button
+12:57:24.766 [main] INFO  DriverManager - Edge driver selected
+12:57:29.919 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:57:30.894 [main] INFO  HomePage - Trying to open application home page
+12:57:30.894 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:57:35.505 [main] INFO  HomePage - Click on the accept cookies button
+12:57:36.478 [main] INFO  HomePage - Term in the search field
+12:57:36.960 [main] INFO  HomePage - click on the search button
+12:57:43.955 [main] INFO  DriverManager - Edge driver selected
+12:57:45.537 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:57:45.545 [main] INFO  HomePage - Trying to open application home page
+12:57:45.545 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:57:50.737 [main] INFO  HomePage - Click on the accept cookies button
+12:57:51.293 [main] INFO  HomePage - click on the cart button
+12:57:55.742 [main] INFO  CartPage - Click on continue shopping button
+12:57:59.640 [main] INFO  DriverManager - Edge driver selected
+12:58:01.561 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:58:01.568 [main] INFO  HomePage - Trying to open application home page
+12:58:01.568 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:58:06.713 [main] INFO  HomePage - Click on the accept cookies button
+12:58:08.674 [main] INFO  HomePage - click on the category button
+12:58:14.887 [main] INFO  DriverManager - Edge driver selected
+12:58:16.606 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:58:16.615 [main] INFO  HomePage - Trying to open application home page
+12:58:16.615 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:58:22.703 [main] INFO  HomePage - Click on the accept cookies button
+12:58:23.520 [main] INFO  HomePage - click on the cart button
+12:58:31.773 [main] INFO  DriverManager - Chrome driver selected
+12:58:33.614 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:58:33.620 [main] INFO  HomePage - Trying to open application home page
+12:58:33.620 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:58:41.670 [main] INFO  HomePage - Click on the accept cookies button
+12:58:42.094 [main] INFO  HomePage - Term in the search field
+12:58:42.348 [main] INFO  HomePage - click on the search button
+12:58:48.055 [main] INFO  DriverManager - Chrome driver selected
+12:58:49.408 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:58:49.414 [main] INFO  HomePage - Trying to open application home page
+12:58:49.414 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:58:59.853 [main] INFO  HomePage - Click on the accept cookies button
+12:59:01.066 [main] INFO  HomePage - click on the cart button
+12:59:10.047 [main] INFO  CartPage - Click on continue shopping button
+12:59:13.868 [main] INFO  DriverManager - Chrome driver selected
+12:59:15.479 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:59:15.483 [main] INFO  HomePage - Trying to open application home page
+12:59:15.484 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:59:24.037 [main] INFO  HomePage - Click on the accept cookies button
+12:59:25.309 [main] INFO  HomePage - click on the category button
+12:59:29.762 [main] INFO  DriverManager - Chrome driver selected
+12:59:31.426 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+12:59:31.435 [main] INFO  HomePage - Trying to open application home page
+12:59:31.435 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+12:59:39.452 [main] INFO  HomePage - Click on the accept cookies button
+12:59:40.705 [main] INFO  HomePage - click on the cart button
+13:20:16.189 [main] INFO  DriverManager - Edge driver selected
+13:20:22.665 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:20:23.360 [main] INFO  HomePage - Trying to open application home page
+13:20:23.360 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:20:26.815 [main] INFO  HomePage - Click on the accept cookies button
+13:20:28.269 [main] INFO  HomePage - Term in the search field
+13:20:28.474 [main] INFO  HomePage - click on the search button
+13:20:34.327 [main] INFO  DriverManager - Edge driver selected
+13:20:36.553 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:20:36.570 [main] INFO  HomePage - Trying to open application home page
+13:20:36.571 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:20:40.710 [main] INFO  HomePage - Click on the accept cookies button
+13:20:42.143 [main] INFO  HomePage - click on the cart button
+13:20:47.512 [main] INFO  CartPage - Click on continue shopping button
+13:20:51.136 [main] INFO  DriverManager - Edge driver selected
+13:20:52.536 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:20:52.545 [main] INFO  HomePage - Trying to open application home page
+13:20:52.546 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:20:57.555 [main] INFO  HomePage - Click on the accept cookies button
+13:20:58.905 [main] INFO  HomePage - click on the category button
+13:21:02.175 [main] INFO  DriverManager - Edge driver selected
+13:21:03.558 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:21:03.568 [main] INFO  HomePage - Trying to open application home page
+13:21:03.568 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:21:06.992 [main] INFO  HomePage - Click on the accept cookies button
+13:21:07.529 [main] INFO  HomePage - click on the cart button
+13:21:12.097 [main] INFO  DriverManager - Chrome driver selected
+13:21:13.435 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:21:13.447 [main] INFO  HomePage - Trying to open application home page
+13:21:13.447 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:21:16.574 [main] INFO  HomePage - Click on the accept cookies button
+13:21:18.109 [main] INFO  HomePage - Term in the search field
+13:21:18.339 [main] INFO  HomePage - click on the search button
+13:21:23.176 [main] INFO  DriverManager - Chrome driver selected
+13:21:24.430 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:21:24.450 [main] INFO  HomePage - Trying to open application home page
+13:21:24.450 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:21:27.496 [main] INFO  HomePage - Click on the accept cookies button
+13:21:28.115 [main] INFO  HomePage - click on the cart button
+13:21:30.925 [main] INFO  CartPage - Click on continue shopping button
+13:21:34.103 [main] INFO  DriverManager - Chrome driver selected
+13:21:35.482 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:21:35.489 [main] INFO  HomePage - Trying to open application home page
+13:21:35.489 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:21:38.605 [main] INFO  HomePage - Click on the accept cookies button
+13:21:40.091 [main] INFO  HomePage - click on the category button
+13:21:43.797 [main] INFO  DriverManager - Chrome driver selected
+13:21:45.489 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+13:21:45.496 [main] INFO  HomePage - Trying to open application home page
+13:21:45.496 [main] INFO  HomePage - Navigating to website with url:   https://www.zooplus.pl/
+13:21:48.448 [main] INFO  HomePage - Click on the accept cookies button
+13:21:49.849 [main] INFO  HomePage - click on the cart button

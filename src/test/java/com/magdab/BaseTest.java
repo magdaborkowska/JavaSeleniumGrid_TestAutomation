@@ -3,10 +3,8 @@ package com.magdab;
 import com.magdab.drivers.DriverManager;
 import com.magdab.pageobject.zooplus.CartPage;
 import com.magdab.pageobject.zooplus.HomePage;
-import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
-import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -18,7 +16,6 @@ import org.testng.annotations.Parameters;
 public abstract class BaseTest {
 
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    public static final Logger assertLogger = LogManager.getLogger("Assert");
 
     protected DriverManager driverManager;
     protected PropertyManager propertyManager;

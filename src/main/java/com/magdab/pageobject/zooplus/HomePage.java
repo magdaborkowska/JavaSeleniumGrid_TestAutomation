@@ -30,6 +30,12 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//*[@class='cart-label' and text()='Twój koszyk']")
     public WebElement cartButton;
 
+    @FindBy(xpath = "//input[@value]")
+    public WebElement searchField;
+
+    @FindBy(xpath = "//span[@class='icon-search']")
+    public WebElement searchButton;
+
 
     @Step("Open application home page")
     public HomePage open() {
@@ -57,6 +63,18 @@ public class HomePage extends BasePage {
     public HomePage goToCart(){
         logger.info("click on the cart button");
         cartButton.click();
+        return this;
+    }
+    @Step("Fill the term in search field")
+    public HomePage searchTerm(String term){
+        logger.info("Term in the search field");
+        searchField.sendKeys(term);
+        return this;
+    }
+    @Step("Search results")
+    public HomePage searchAction(){
+        logger.info("click on the search button");
+        searchButton.click();
         return this;
     }
 }

@@ -11,7 +11,7 @@ public class ContinueShoppingFromCartTest extends BaseTest {
     static final String SHOP_WELCOME_HEADER_XPATH = "//*[text()='Internetowy sklep zoologiczny zooplus – karma i akcesoria dla zwierząt']";
 
     @Test
-    public void basicZooplusContinueShopping() {
+    public void ZooplusContinueShopping() {
 
         homePage.open()
                 .clickAcceptCookies()
