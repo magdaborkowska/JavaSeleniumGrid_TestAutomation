@@ -11,7 +11,7 @@ public class GoToCategoryTest extends BaseTest {
     static final String CATEGORY_HEADER_XPATH = "//*[@class='pagetitle' and text()='Karma sucha dla psa']";
 
     @Test
-    public void basicZooplusGoToCategory(){
+    public void ZooplusGoToCategory(){
 
         homePage.open()
                 .clickAcceptCookies()

@@ -5,7 +5,7 @@
     <parameter name="browserName" value="Edge" />
     <parameter name="testDataFileName" value="default.properties"/>
     <classes>
-      <class name="com.magdab.zooplus.GoToCartTest" />
+      <class name="com.magdab.zooplus.SearchTermTest" />
     </classes>
   </test>
   <test name="Allure Reports Edge 2">
@@ -22,11 +22,18 @@
             <class name="com.magdab.zooplus.GoToCategoryTest" />
     </classes>
   </test>
+  <test name="Allure Reports Edge 4">
+    <parameter name="browserName" value="Edge" />
+    <parameter name="testDataFileName" value="default.properties"/>
+    <classes>
+      <class name="com.magdab.zooplus.GoToCartTest" />
+    </classes>
+  </test>
   <test name="Allure Reports Chrome 1">
     <parameter name="browserName" value="Chrome" />
     <parameter name="testDataFileName" value="default.properties" />
     <classes>
-      <class name="com.magdab.zooplus.GoToCartTest"/>
+      <class name="com.magdab.zooplus.SearchTermTest"/>
     </classes>
   </test>
   <test name="Allure Reports Chrome 2">
@@ -42,5 +49,12 @@
     <classes>
       <class name="com.magdab.zooplus.GoToCategoryTest" />
     </classes>
+  </test>
+    <test name="Allure Reports Chrome 4">
+      <parameter name="browserName" value="Chrome" />
+      <parameter name="testDataFileName" value="default.properties" />
+      <classes>
+        <class name="com.magdab.zooplus.GoToCartTest"/>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
